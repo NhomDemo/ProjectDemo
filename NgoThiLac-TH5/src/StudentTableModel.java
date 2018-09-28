@@ -50,6 +50,11 @@ public class StudentTableModel extends AbstractTableModel {
 		this.students = list;
 		fireTableDataChanged();
 	}
+	
+	public void TanMoiThemCaiNay(ArrayList<Student> list) {
+		this.students = list;
+		fireTableDataChanged();
+	}
 
 	
 }
